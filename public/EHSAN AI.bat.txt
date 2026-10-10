@@ -1,0 +1,5 @@
+@echo off
+cd /d "%USERPROFILE%\Desktop\ehsan-ai"
+start "" http://localhost:3000
+node server.js
+pause
